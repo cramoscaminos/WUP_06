@@ -82,7 +82,6 @@ From the table it appears that the white race is 67.98% in favor of capital puni
 
 I reject the null hypothesis because based on data provided there is a difference in favor or against capital punishment based on race. White individuals favored capital punishment approximatley 7-3 in favor of capital punishment; while black individuals are split almost 50-50. The "other" category is slightly higher than  thann blacks 55-44, but still less than whites in favor. 
 
-
 ## More data version
 
 ```{r}
@@ -96,12 +95,11 @@ fisher.test(table2)
 fisherXY(mydata$cappun,mydata$race)
 ```
 
-The p-value for the chi square test is 0.00000000000001. The number is significantly small and very distant from 0.05, so I reject the null hypothesis 
+The p-value for the chi square test is 0.00000000000001. The number is significantly small and very distant from 0.05, so I reject the null hypothesis. 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variables causes the other, or whether they perhaps are related for some other reason.  Watch the chapter 6 videos from the George Town videos collection.!-->
-The question asks, is race is a factor that determines if an individual is in favor or against capital punishment. I reject the null hypothesis because based on data provided there is a difference in favor or against capital punishment based on race.
-]
 
-Based on the p-value attitude in regards toward capital punishment is dependent on race. A white person in 2x more likely to be in favor of capital punishment. Black persons are .68 to 1  less in favor of capital punishment.
+In this assignment, we are to ascertain based on data, "is race a factor that determines if an individual is in favor or against capital punishment?" I reject the null hypothesis because based on data provided there is a significant difference in favor or against capital punishment based on race. Based on the p-value 0.00000000000001 attitude in regards to capital punishment is dependent on race. Whites are 2x more likely to favor capital punishment. Blacks were more .68 to 1 opposed to capital punishment, and "others" were  split almost down the middle. 
+
