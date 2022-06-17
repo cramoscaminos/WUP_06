@@ -44,8 +44,6 @@ Both race and capital punishment are categorical variables; therefore the method
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming or departing to what is expected by your null hypothesis !-->
 
-
-
 ## Now with The Most data (fewer variables gives more data points)
 
 ```{r}
@@ -65,11 +63,9 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 From this plot it appears that the white race in more likely to favor capital punishment. Other races also favor capital punishment, but they favor it less than whites. Most people of black race were  opposed  to capital punishment than in favor of it. 
 
-
 ### Numerical Descriptive Results
 
-<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->  
-
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->   
 
 
 
@@ -80,7 +76,7 @@ table2 <- xtabs(~race + cappun, data=mydata)
 rowPerc(table2)
 colPerc(table2)
 ```
-From the table it appears that the white race is 67.98% in favor of capital punishment. That is almot 7-3 out of the white individuals in favor of capital punishment.  
+From the table it appears that the white race is 67.98% in favor of capital punishment. The "other" race is less inclined to favor capital puinshment 46.29% in favor. Furthermore, blacks individuals are more opposed 53.71% to capital punishment than in favor. 
 
 ## Inferential Results
 
