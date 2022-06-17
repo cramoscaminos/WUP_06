@@ -30,7 +30,7 @@ mydata <- na.omit(mydata)
 Is attitude toward capitol punishment (cappun) independent of race (race)?
 If not, then whose view differs from whom??  
 
-$H_0$: Attitude toward capital punishment is not dependent on race. 
+$H_0$: Attitude toward capital punishment is not dependent on race.   
 $H_a$: Attitude toward capital punishment is dependent on race.  
 
 # Methods
